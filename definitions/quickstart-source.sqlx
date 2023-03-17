@@ -1,6 +1,9 @@
 config {
-  type: "view"
-  ,name: "overridden_name"
+  type: "view",
+  name: "overridden_name",
+  assertions: {
+    uniqueKey: ["fruit"]
+  }
 }
 
 SELECT

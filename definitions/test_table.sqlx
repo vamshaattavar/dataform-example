@@ -12,7 +12,8 @@ config {
        record_column2_name: "Description of the second record column",
       }
     }
-  }
+  },
+  dependencies: ["quickstart-table"]
 }
 SELECT
   "first_column_value" AS column_1_name,
