@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "dataform_1",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "tof-testing-236018",
+  "defaultLocation": "EU"
+}
+    
