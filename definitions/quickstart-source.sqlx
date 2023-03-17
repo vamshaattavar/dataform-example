@@ -1,6 +1,7 @@
 config {
   type: "view"
   ,name: "overridden_name"
+  ,description: "Description of the table"
 }
 
 SELECT
