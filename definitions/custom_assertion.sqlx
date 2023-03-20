@@ -1,8 +1,0 @@
-config { type: "assertion" }
-
-SELECT
-  *
-FROM
-  ${ref("overridden_name")}
-WHERE
- fruit IS NULL
