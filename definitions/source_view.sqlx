@@ -1,9 +1,12 @@
 config {
 
   type: "view",
-  name: "overridden_name",
+  name: "source",
   assertions: {
-    uniqueKey: ["fruit"]
+    uniqueKey: ["fruit"],
+    rowConditions: [
+      'count > 0',
+    ]
   }
 }
 

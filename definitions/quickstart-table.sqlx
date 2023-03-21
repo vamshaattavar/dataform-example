@@ -1,9 +1,0 @@
-config {
-  type: "table"
-}
-
-SELECT
-  fruit,
-  SUM(count) as count
-FROM ${ref("overridden_name")}
-GROUP BY 1
