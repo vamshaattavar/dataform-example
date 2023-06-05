@@ -1,6 +1,6 @@
 config {
   type: "table",
-  name: "ta",
+  name: "users",
   columns: {
     user_id: docs.user_id,
     age: docs.age,
